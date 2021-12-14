@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  background-color: #eee;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.wd-main-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.wd-table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.wd-table td,
+.wd-table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.wd-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.wd-table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  color: white;
+}
+
+.wd-table-item {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wd-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.wd-form-input-label {
+  font-size: 0.9rem;
+  font-style: italic;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.8);
+  margin-left: 25px;
+}
+
+.wd-form-input {
+  padding: 8px 20px 8px 20px;
+  border: 1px solid #333f65;
+  border-radius: 5px;
+}
+
+.wd-form-input:focus {
+  outline-color: #84c398;
+}
+
+.wd-form-file-upload-label {
+  padding: 8px 20px 8px 20px;
+  border-radius: 5px;
+  border: 1px solid #333f65;
+  background: #f4f4f8;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.wd-form-file-upload-hide {
+  display: none;
+}
